@@ -1,5 +1,23 @@
 ## Welcome to GitHub Pages
 
+
+## Autoform
+This is small tool for preapring url over Fields on Form
+
+## The tool use pattern of url to create the fields
+
+http://localhost/details/user/{user_id}/status/{status_id}/year/{year}
+
+fields:
+
+    label: user
+    name: user_id
+    value: ''
+    type: input
+    
+    
+    ...
+
 You can use the [editor on GitHub](https://github.com/apiSQL/autoform/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
